@@ -1,5 +1,24 @@
 import './App.css'
 
+function SteamCupIcon({ className = '' }) {
+  return (
+    <svg
+      className={`steam-cup-icon ${className}`}
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <path d="M22 18c-4-4 4-6 0-11" />
+      <path d="M32 18c-4-4 4-6 0-12" />
+      <path d="M42 18c-4-4 4-6 0-11" />
+      <path d="M15 25h31v14a12 12 0 0 1-12 12h-7a12 12 0 0 1-12-12V25Z" />
+      <path d="M46 29h3a8 8 0 0 1 0 16h-4" />
+      <path d="M12 56h42" />
+    </svg>
+  )
+}
+
 const skills = [
   {
     title: 'Development Blend',
@@ -129,7 +148,9 @@ function App() {
       <header className="navbar">
         <div className="container navbar-content">
           <a href="#home" className="brand">
-            <span className="brand-icon">☕</span>
+            <span className="brand-icon">
+              <SteamCupIcon />
+            </span>
             <span>
               Muhammad Haekal
               <small>Coffee • Code • Create</small>
@@ -200,7 +221,7 @@ function App() {
               </div>
 
               <div className="floating-note note-one">
-                <span>☕</span>
+                <SteamCupIcon className="floating-cup-icon" />
                 Coffee & Code
               </div>
 
@@ -493,7 +514,9 @@ function App() {
                 <input type="text" name="_honey" className="form-honey" />
 
                 <div className="form-heading">
-                  <span>☕</span>
+                  <span>
+                    <SteamCupIcon />
+                  </span>
                   <div>
                     <small>Kirim pesan</small>
                     <h3>Mari mulai percakapan</h3>
@@ -559,7 +582,10 @@ function App() {
       <footer className="footer">
         <div className="container footer-content">
           <div>
-            <strong>☕ Muhammad Haekal</strong>
+            <strong className="footer-brand">
+              <SteamCupIcon />
+              Muhammad Haekal
+            </strong>
             <p>Coffee • Code • Create</p>
           </div>
 
