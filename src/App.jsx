@@ -502,7 +502,7 @@ function App() {
 
               <form
                 className="contact-form"
-                action="https://formsubmit.co/mhaekal654@gmail.com"
+                action="https://formsubmit.co/78019cb13e92243d8f01af6c751af83c"
                 method="POST"
               >
                 <input
@@ -511,6 +511,11 @@ function App() {
                   value="Pesan baru dari Portofolio Muhammad Haekal"
                 />
                 <input type="hidden" name="_template" value="table" />
+                <input
+                  type="hidden"
+                  name="_url"
+                  value="https://portofolio-haekal.vercel.app/#contact"
+                />
                 <input type="text" name="_honey" className="form-honey" />
 
                 <div className="form-heading">
