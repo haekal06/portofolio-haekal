@@ -254,7 +254,7 @@ function App() {
                 <span className="quote-mark">“</span>
 
                 <p>
-                  Saya adalah mahasiswa semester 6 Program Studi Sistem
+                  Saya adalah mahasiswa semester 7 Program Studi Sistem
                   Informasi di Universitas Bina Sarana Informatika (BSI). Saya
                   memiliki ketertarikan pada teknologi informasi dan
                   pengembangan solusi digital.
@@ -289,7 +289,7 @@ function App() {
                   <span className="information-number">02</span>
                   <div>
                     <small>Status</small>
-                    <strong>Mahasiswa Semester 6</strong>
+                    <strong>Mahasiswa Semester 7</strong>
                     <p>Terbuka untuk belajar dan berkolaborasi</p>
                   </div>
                 </div>
